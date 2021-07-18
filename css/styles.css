@@ -1,0 +1,70 @@
+:root {
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --text-color: #757575;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+}
+ul {
+  list-style: none;
+}
+
+header {
+  background-color: #ffffff;
+}
+.site-nav-logo {
+  color: black;
+}
+.web {
+  color: var(--accent-color);
+}
+.site-nav-link {
+  color: var(--primary-text-color);
+}
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
+}
+.site-nav-link.current {
+  color: var(--accent-color);
+}
+
+.contacts-header {
+  color: var(--text-color);
+}
+.contacts-header:hover,
+.contacts-header:focus {
+  color: var(--accent-color);
+}
+/* Hero */
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+button {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+/* Main */
+.section-title {
+  color: var(--primary-text-color);
+}
+.feature-list .title {
+  color: var(--primary-text-color);
+}
+.feature-list .text {
+  color: var(--text-color);
+}
+
+/* Footer */
+.footer-logo {
+  color: #ffffff;
+}
+
+/* цвет белый #FFFFFF */
+/* контакты в футере rgba(255, 255, 255, 0.6) */
+/* цвет фона хедер #FFFFFF темный #2F303A 
+серый #F5F4FA светлый #E5E5E5 */ ;
