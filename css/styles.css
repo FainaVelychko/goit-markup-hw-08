@@ -70,6 +70,7 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   align-items: center;
+  cursor: pointer;
 }
 .section-title {
   color: var(--primary-text-color);
@@ -107,6 +108,7 @@ ul {
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
+  cursor: pointer;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
