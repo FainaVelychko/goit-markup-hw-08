@@ -307,7 +307,9 @@ header .container {
   height: 44px;
 }
 .social-icons-link:hover,
-.social-icons-link-footer:hover {
+.social-icons-link:focus,
+.social-icons-link-footer:hover,
+.social-icons-link-footer:focus {
   color: #ffffff;
   background-color: var(--accent-color);
 }
@@ -337,6 +339,8 @@ header .container {
 .button-portfolio:focus {
   background-color: var(--accent-color);
   color: var(--background-color-main);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-title {
   color: var(--primary-text-color);
@@ -353,6 +357,12 @@ header .container {
 }
 .portfolio-works {
   text-decoration: none;
+}
+/* Если делать ховер на portfolio-works, то он не работает */
+.portfolio-item:hover,
+.portfolio-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .buttons-list {
   margin-bottom: 50px;
@@ -377,8 +387,6 @@ header .container {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* Footer */
