@@ -53,8 +53,8 @@
     <!--Герой-->
                 <section class="hero">
                     <div class="container">
-                    <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-                    <button type="button" class="button">Заказать услугу</button>
+                        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+                        <button type="button" class="button" data-modal-open>Заказать услугу</button>
                     </div>
                 </section>
     <!--Список преимуществ веб студии (скрытый заголовок)-->
@@ -106,9 +106,30 @@
             <div class="container">
             <h2 class="section-title">Чем мы занимаемся</h2>
             <ul class="images-list">
-                <li class="images-list-item"> <a href="#"><img src="./images/box1.jpg" alt="Десктопные приложения" width="370"></a> </li>
-                <li class="images-list-item"> <a href="#"><img src="./images/box2.jpg" alt="Мобильные приложения" width="370"></a> </li>
-                <li class="images-list-item"> <a href="#"><img src="./images/box3.jpg" alt="Дизайнерские решения" width="370"></a> </li>
+                <li class="images-list-item">
+                     <a href="#">
+                        <img src="./images/box1.jpg" alt="Десктопные приложения" width="370">
+                        <div class="images-list-overlay">
+                            <h3 class="images-list-text">Десктопные приложения</h3>
+                        </div>
+                    </a>
+                </li>
+                <li class="images-list-item"> 
+                    <a href="#">
+                        <img src="./images/box2.jpg" alt="Мобильные приложения" width="370">
+                        <div class="images-list-overlay">
+                            <h3 class="images-list-text">Мобильные приложения</h3>
+                        </div>
+                    </a> 
+                    
+                </li>
+                <li class="images-list-item"> 
+                    <a href="#"><img src="./images/box3.jpg" alt="Дизайнерские решения" width="370">
+                    <div class="images-list-overlay">
+                        <h3 class="images-list-text">Дизайнерские решения</h3>
+                    </div>
+                    </a>
+                </li>
             </ul>
             </div>
         </section>
@@ -366,7 +387,16 @@
             </div>
         </div>
     </footer>
-
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" data-modal-close class="modal-btn">
+                <svg width="30" height="30" class="modal-icon">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
