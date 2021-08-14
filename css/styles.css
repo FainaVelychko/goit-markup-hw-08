@@ -526,7 +526,7 @@ header .container {
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opasity var(--transition), visibility var(--transition);
+  transition: opacity var(--transition), visibility var(--transition);
 }
 .backdrop.is-hidden {
   visibility: hidden;
