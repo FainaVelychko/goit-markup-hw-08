@@ -549,6 +549,7 @@ header .container {
   border-radius: 4px;
   margin-left: 12px;
   cursor: pointer;
+  border-style: none;
 }
 .footer-btn-container {
   display: flex;
