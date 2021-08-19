@@ -39,7 +39,10 @@ p {
 a {
   text-decoration: none;
 }
-
+input,
+textarea {
+  outline: none;
+}
 .visually-hidden,
 .checkbox {
   position: absolute;
@@ -550,8 +553,7 @@ header .container {
   margin-left: 12px;
   cursor: pointer;
   border-style: none;
-}
-.footer-btn-container {
+
   display: flex;
   justify-content: center;
   align-items: center;
