@@ -1,0 +1,70 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+.header__container {
+  @include centeredFlex($justify: space-between);
+}
+.site-nav-box,
+.site-nav,
+.header-contacts-bar {
+  @include centeredFlex();
+}
+.site-nav__item:not(:last-child),
+.header-contacts-bar__item:not(:last-child) {
+  margin-right: 50px;
+}
+.site-nav__logo {
+  margin-right: 93px;
+}
+.site-nav__link {
+  padding: 32px 0 32px 0;
+  margin: 0;
+  display: block;
+  color: $primary-text-color;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  transition: color $transition;
+
+  &--active {
+    position: relative;
+    color: $accent-color;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -1px;
+      display: block;
+      width: 100%;
+      height: 4px;
+      background-color: $accent-color;
+      border-radius: 2px;
+    }
+  }
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.contacts-header {
+  display: flex;
+  color: $text-color;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  align-items: center;
+  transition: color $transition;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+.contacts-header__icon {
+  fill: $text-color;
+  margin-right: 10px;
+  transition: fill $transition;
+  .contacts-header:hover &,
+  .contacts-header:focus & {
+    fill: $accent-color;
+  }
+}

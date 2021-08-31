@@ -1,0 +1,23 @@
+.button {
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  padding: 10px 32px;
+  background-color: $accent-color;
+  color: $background-color-main;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color $transition;
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
+  &--send {
+    align-self: center;
+  }
+}

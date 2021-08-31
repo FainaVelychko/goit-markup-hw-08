@@ -1,0 +1,94 @@
+.modal-form {
+  @extend %columnFlex;
+}
+.modal-form__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  margin-bottom: 12px;
+}
+.modal-form__field {
+  @extend %columnFlex;
+  margin-bottom: 10px;
+  position: relative;
+}
+.modal-form__label {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: $text-color;
+}
+.modal-form__input {
+  height: 40px;
+  padding-left: 42px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  transition: border $transition;
+}
+.modal-form__icon {
+  position: absolute;
+  top: 28px;
+  left: 12px;
+  display: inline-block;
+  transition: fill $transition;
+}
+.modal-form__field--bottom {
+  margin-bottom: 20px;
+}
+.modal-form__textarea {
+  height: 120px;
+  resize: none;
+  padding: 12px 16px 12px 16px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  transition: border $transition;
+  &::placeholder {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+  }
+}
+.modal-form__field:focus-within > .modal-form__icon {
+  fill: $accent-color;
+}
+.modal-form__field:focus-within > .modal-form__input,
+.modal-form__field:focus-within > .modal-form__textarea {
+  border-color: $accent-color;
+}
+.policy {
+  align-self: center;
+  margin-bottom: 30px;
+  color: $text-color;
+  line-height: 1.7;
+  @include centeredFlex();
+}
+.policy__icon {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 8px;
+}
+
+.checkbox:checked ~ .policy__icon {
+  background-color: $accent-color;
+  background-image: url(../images/icon-check.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: border-box;
+  box-shadow: none;
+  border-color: $accent-color;
+}
+
+.policy__link {
+  color: $accent-color;
+  text-decoration: underline;
+}
