@@ -2,9 +2,9 @@
 @import "./utils/placeholders";
 @import "./utils/mixins";
 @import "./utils/visually-hidden";
-@import "./utils/reset-default-settings";
-@import "./components/common";
-@import "./components/section";
+@import "./base/reset-default-settings";
+@import "./base/common";
+@import "./base/section";
 @import "./components/logo";
 @import "./components/page-header";
 @import "./components/hero";

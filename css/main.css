@@ -86,7 +86,7 @@ img {
   margin-top: 0;
   margin-bottom: 50px;
   color: #212121;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -94,7 +94,7 @@ img {
 
 .logo {
   font-family: Raleway, cursive;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 26px;
   color: #000000;
 }
@@ -241,7 +241,7 @@ img {
   padding: 10px 32px;
   background-color: #2196f3;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -279,7 +279,7 @@ img {
   margin-top: 0;
   margin-bottom: 10px;
   color: #212121;
-  font-weight: 700;
+  font-weight: 700px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -601,7 +601,7 @@ img {
 
 .subscribe-btn__text {
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
@@ -696,7 +696,7 @@ img {
 }
 
 .modal-form__title {
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 20px;
   line-height: 1.15;
   margin-bottom: 12px;
@@ -947,7 +947,7 @@ img {
 
 .work-sample__title {
   color: #212121;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;

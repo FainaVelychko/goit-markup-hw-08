@@ -3,12 +3,12 @@
 }
 .cards-list__name {
   font-weight: 500;
-  font-size: 16px;
+  font-size: $font-size-secondary;
   margin-bottom: 10px;
 }
 .cards-list__position {
   color: $text-color;
-  font-size: 16px;
+  font-size: $font-size-secondary;
   margin-bottom: 16px;
 }
 .cards-list__item {

@@ -47,7 +47,7 @@
   padding: 16px 0 16px 16px;
   width: 358px;
   &::placeholder {
-    font-size: 16px;
+    font-size: $font-size-secondary;
     line-height: 1.25;
     color: rgba(255, 255, 255, 0.6);
   }
@@ -65,8 +65,8 @@
 }
 .subscribe-btn__text {
   color: #ffffff;
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: $title-font-weight;
+  font-size: $font-size-secondary;
   line-height: 1.88;
   letter-spacing: 0.06em;
   margin-right: 10px;
