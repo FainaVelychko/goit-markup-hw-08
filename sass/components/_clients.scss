@@ -1,8 +1,9 @@
 .clients-list {
   display: flex;
+  flex-wrap: wrap;
 }
 .clients-list__item {
-  width: 170px;
+  width: 210px;
   height: 92px;
   border: 1px solid $icons-color;
   box-sizing: border-box;
@@ -12,8 +13,11 @@
   &:focus {
     border: 1px solid $accent-color;
   }
-  &:not(:last-child) {
+  &:nth-child(2n + 1) {
     margin-right: 30px;
+  }
+  &:nth-last-child(n + 3) {
+    margin-bottom: 30px;
   }
 }
 .clients-list__link {

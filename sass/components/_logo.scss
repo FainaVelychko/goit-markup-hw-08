@@ -1,8 +1,14 @@
 .logo {
   font-family: $secondary-font-family;
   font-weight: $title-font-weight;
-  font-size: 26px;
   color: #000000;
+  font-size: 24px;
+  line-height: 1.17;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  @media screen and (min-width: $desktop) {
+    font-size: 26px;
+  }
 }
 .logo__web {
   color: $accent-color;

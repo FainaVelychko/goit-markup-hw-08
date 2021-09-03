@@ -4,8 +4,9 @@
 .modal-form__title {
   font-weight: $title-font-weight;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.5;
   margin-bottom: 12px;
+  text-align: center;
 }
 .modal-form__field {
   @extend %columnFlex;
@@ -63,8 +64,13 @@
   align-self: center;
   margin-bottom: 30px;
   color: $text-color;
-  line-height: 1.7;
+  font-size: 12px;
+  line-height: 1.17;
   @include centeredFlex();
+  @media screen and (min-width: $desktop) {
+    font-size: $font-size-main;
+    line-height: 1.71;
+  }
 }
 .policy__icon {
   display: inline-block;

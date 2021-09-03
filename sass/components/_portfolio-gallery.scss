@@ -1,12 +1,15 @@
-.portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: calc(-1 * #{$portfolio-item-gap});
-  margin-bottom: calc(-1 * #{$portfolio-item-gap});
-}
+// .portfolio {
+//   display: flex;
+//   flex-wrap: wrap;
+//   margin-right: calc(-1 * #{$portfolio-item-gap});
+//   margin-bottom: calc(-1 * #{$portfolio-item-gap});
+// }
+// .portfolio__item {
+//   flex-basis: calc((100%- 3 * #{$portfolio-item-gap}) / 3);
+//   margin: 0 $portfolio-item-gap $portfolio-item-gap 0;
+// }
 .portfolio__item {
-  flex-basis: calc((100%- 3 * #{$portfolio-item-gap}) / 3);
-  margin: 0 $portfolio-item-gap $portfolio-item-gap 0;
+  margin-bottom: 30px;
 }
 .work-sample {
   display: block;
